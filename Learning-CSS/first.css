@@ -1,0 +1,29 @@
+/* body{
+    background-color: blueviolet;
+} */
+#box{    /*using ID Selector*/
+    color: blue;
+}
+
+
+p{     
+    background-color: yellow;
+    /* text-align; */
+    /* text-decoration: line-through; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*Universal Selector */
+*{
+    background-color: #414144;;
+}
+
+.para{      /*using Class Selector*/
+    font-weight :800;
+}
+
+/* group Selector */
+h1,h2,h3{
+    color: rgb(255, 0, 179);
+}

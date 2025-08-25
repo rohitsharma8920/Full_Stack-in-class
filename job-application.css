@@ -1,0 +1,25 @@
+/* Universal Selector */
+*{
+    background-color: #414141;
+    color: white;
+}
+
+
+/* class Selector */
+.Personal-information{
+    color: blueviolet;
+}
+/* Tag Selector */
+legend{
+    color: red;
+}
+
+/* hover Selector*/
+button:hover{
+    background-color: green;
+    color: rgb(175, 17, 43);
+}
+
+.job-details{
+    color: blueviolet;
+}
