@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image with Paragraph in a Box</title>
+  <style>
+    .box {
+      border: 2px solid #333;   /* border around the box */
+      padding: 15px;            /* space inside */
+      width: 400px;             /* fixed width */
+      display: flex;            /* arrange image + text side by side */
+      align-items: center;      /* center vertically */
+      gap: 15px;                /* space between image & text */
+      background: #f9f9f9;      /* light background */
+      border-radius: 10px;      /* rounded box corners */
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1); /* soft shadow */
+    }
+
+    .box img {
+      width: 120px;             /* image width */
+      height: auto;             /* keep aspect ratio */
+      border-radius: 8px;       /* rounded corners */
+    }
+
+    .box p {
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.4;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <img src="https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2018/05/indian-paneer-pizza.jpg" alt="Sample Image">
+    <p>
+      This is a paragraph placed next to an image inside a styled box.  
+      Using **flexbox**, the image and text align neatly side by side.
+    </p>
+  </div>
+
+</body>
+</html>

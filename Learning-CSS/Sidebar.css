@@ -1,0 +1,104 @@
+body{
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 230px;
+    
+
+}
+.background{
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.O24oVpbawxaavstaWkf-fgHaFm?r=0&rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+header{
+    margin:0px;
+    text-align: center;
+    background-color: blueviolet;
+    padding: 0px;
+    border: 3px dotted black;
+}
+.sidebar{
+    width: 200px;
+    background-color: rgb(160, 127, 80);
+    color: white;
+    padding: 10px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration:none;
+}
+.sidebar a:visited {
+    color:rgb(50, 13, 13);
+}
+.image{
+    display: inline;
+}
+/* .images{
+    display: flex;
+} */
+.Margherita-pizza {
+    border: 2px solid #333;  
+    padding: 15px;            
+    width: 200px;             
+    display: flex;            
+    align-items: center;      
+    gap: 15px;                
+    background: #f9f9f9;      
+    border-radius: 10px;      
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1); 
+}
+.Margherita-pizza img{
+    width: 120px;             
+    height: auto;             
+    border-radius: 8px;      
+
+ 
+ /* padding-bottom: 10px; */
+}
+.Margherita-pizza p{
+    margin: 0;
+      font-size: 16px;
+      line-height: 1.4;
+      color: #333;
+}
+.paneer-pizza {
+    border: 2px solid #333;  
+    padding: 15px;            
+    width: 200px;             
+    display: flex;            
+    align-items: center;      
+    gap: 10px;                
+    background: #f9f9f9;      
+    border-radius: 10px;      
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1); 
+}
+.paneer-pizza img{
+    width: 120px;             
+    height: auto;             
+    border-radius: 8px;      
+
+}
+.paneer-pizza p{
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #333;
+}
+
+button{
+    height: 40px;
+    width: 50px;
+    
+    color: rgb(40, 15, 15);
+}
+button:hover{
+    background-color: green;
+}
